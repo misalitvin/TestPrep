@@ -1,0 +1,11 @@
+﻿For creating entities and context(Database first)
+dotnet ef dbcontext scaffold "Data Source=DESKTOP-K6I7727\SQLEXPRESS02;Initial Catalog=mydb;Integrated Security=True;TrustServerCertificate=True;"
+ Microsoft.EntityFrameworkCore.SqlServer -o Entities --project C:\Users\misalitvin\RiderProjects\TestPrep\TestPrep
+
+For creating migrations(Code first)
+dotnet ef migrations add Migrations  --project C:\Users\misalitvin\RiderProjects\TestPrep\TestPrep
+
+
+Connection strings
+Local host: "Data Source=DESKTOP-K6I7727\\SQLEXPRESS02;Initial Catalog=mydb;Integrated Security=True;Trust Server Certificate=True;"
+Pjatk db: "Data Source=db-mssql;Initial Catalog=2019SBD;Integrated Security=True;Trust Server Certificate=True"
