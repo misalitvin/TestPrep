@@ -1,6 +1,6 @@
 ﻿For creating entities and context(Database first)
 dotnet ef dbcontext scaffold "Data Source=DESKTOP-K6I7727\SQLEXPRESS02;Initial Catalog=mydb;Integrated Security=True;TrustServerCertificate=True;"
- Microsoft.EntityFrameworkCore.SqlServer -o Entities --project C:\Users\misalitvin\RiderProjects\TestPrep\TestPrep
+ Microsoft.EntityFrameworkCore.SqlServer -o Entities --project C:\Users\misalitvin\RiderProjects\Test\Test
 
 For creating migrations(Code first)
 dotnet ef migrations add Migrations  --project C:\Users\misalitvin\RiderProjects\TestPrep\TestPrep
